@@ -21,4 +21,8 @@ const HEROES: Hero[] = [
 export class AppComponent {
   title = 'GDG Superheroes';
   heroes = HEROES;
+  selectedHero: Hero;
+  onSelect(hero: Hero): void {
+      this.selectedHero = hero;
+  }
 }
