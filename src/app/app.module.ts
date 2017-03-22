@@ -10,6 +10,7 @@ import { InMemoryDataService }  from './in-memory-data.service';
 import { AppComponent } from './app.component';
 import { HeroesComponent } from './heroes.component';
 import { DashboardComponent } from './dashboard.component';
+import { HeroDetailMiniComponent } from './hero-detail-mini.component';
 import { HeroDetailComponent } from './hero-detail.component';
 import { HeroSearchComponent } from './hero-search.component';
 
@@ -22,6 +23,7 @@ import { AppRoutingModule } from './app-routing.module';
     AppComponent,
     HeroesComponent,
     DashboardComponent,
+    HeroDetailMiniComponent,
     HeroDetailComponent,
     HeroSearchComponent
   ],
