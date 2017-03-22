@@ -22,13 +22,13 @@ export class HeroesComponent implements OnInit{
       this.getHeroes();
   }
 
-  onSelect(hero: Hero): void {
-      this.selectedHero = hero;
-  }
-
   getHeroes(): void {
       this.heroService.getHeroes()
       .then(heroes => this.heroes = heroes);
+  }
+
+  onSelect(hero: Hero): void {
+      this.selectedHero = hero;
   }
 
   gotoDetail(): void {
